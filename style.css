@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.content{
+    min-height: 100%;
+}
+
+hr{
+    border: gray 1px solid;
+    width: 70%;
+}
+
+.header{
+    background: rgb(5,112,115);
+background: linear-gradient(0deg, rgba(5,112,115,1) 0%, rgba(30,159,127,1) 100%);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.header h3{
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.description{
+    text-align: center;
+}
+
+.tombolone{
+    text-align: center;
+    color: rgb(58, 58, 58);
+    margin-bottom: 50px;
+}
+
+.tombolone .buttons{
+    margin-top: 3%;
+}
+
+.tombolone .buttons .button{
+    background: rgb(5,112,115);
+    background: linear-gradient(0deg, rgba(5,112,115,1) 0%, rgba(30,159,127,1) 100%);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+    transition: background-color 2s;
+}
+
+.tombolone .button:hover{
+    background: rgb(5,112,115);
+    background: linear-gradient(0deg, rgba(5,112,115,1) 0%, rgba(7,115,116,1) 0%, rgba(7,116,116,1) 0%, rgba(30,159,127,1) 20%, rgba(83,255,178,1) 100%);
+}
