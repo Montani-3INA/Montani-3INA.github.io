@@ -1,0 +1,12 @@
+@media screen and (max-width: 1080px) {
+    .tombolone .buttons .button{
+        display: block;
+        margin: 20px;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .header h3{
+        font-size: 20px;
+    }
+  }
