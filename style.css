@@ -49,8 +49,8 @@ background: linear-gradient(0deg, rgba(5,112,115,1) 0%, rgba(30,159,127,1) 100%)
 .tombolone .buttons .button{
     background: rgb(5,112,115);
     background: linear-gradient(0deg, rgba(5,112,115,1) 0%, rgba(30,159,127,1) 100%);
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
