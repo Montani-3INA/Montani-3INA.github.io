@@ -1,5 +1,7 @@
-@media (min-width: 1200px) {
-  button {
+@media (max-width: 1000px) {
+  .btn{
+    display: inline;
+    padding: 2px;
   }
 }
 
