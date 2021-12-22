@@ -1,34 +1,120 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Dante GBC</title>
-    <meta name="author" content="matte" />
-    <style type="text/css"> body { background-color:#202850; }</style>
+<html lang="en">
+<!-- Created By Enrico Bernardi -->
+<!-- ITT MONTANI - FERMO -->
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
     
-  </head>
-  <body>
-    <div id="game">
-      <canvas id="mainCanvas" width="256" height="224">No Canvas Support</canvas>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- TITLE -->
+    <title>Commedia Divina</title>
+
+</head>
+
+<body class="body">
+
+    <!--HEADER CLASS-->  
+    <div class="header">
+    <img class="title" src="./images/image-title.png" alt=""><br><br>
+    <img class="subtitle"src="./images/image-subtitle.png" alt="">
     </div>
-    <div id="controller">
-      <div id="controller_dpad">
-        <div id="controller_left"></div>
-        <div id="controller_right"></div>
-        <div id="controller_up"></div>
-        <div id="controller_down"></div>
+
+    <!--CONTENT CLASS-->
+    <div class="content">
+      <img class="dante-cloud" src="./images/image-dante-cloud.png" alt="">
+      <p class="notes">
+        Questa è la spiegazione del videogame più bello del mondo durante queste spiegazione dante si uccise per non leggerla 
+        e niente questa e' la vera storia, Dante stava passando una giornata tranquilla e si ritrova a leggere questa descrizione 
+        noiosa e inutile.
+      </p>
+
+      <!--CAROUSEL-START-->
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+          
+            <div class="item active">
+             <img src="./images/image-ex1.png" alt="PARADISO" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>PARADISO</h3>
+                <p>Il livello più facile, vinci la sfida saltando i blocchi e raggiungendo il checkpoint!</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="./images/image-ex2.jpg" alt="PURGATORIO" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>PURGATORIO</h3>
+                <p>Il livello intermedio, combatti gli zombie e supera gli ostacoli!</p>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="./images/image-ex3.jpg" alt="INFERNO" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>INFERNO</h3>
+                <p>Sfida Satana e combatti per restare in vita fino all'ultimo!</p>
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+          <!--COROUSEL-END-->
+
+          <br><br>
+
+          <!--DOWNLOAD-SECTION-->
+          <hr class="hr_short">
+          <p class="download-title">SCARICA IL GIOCO!</p>
+          <a class="download-btn" href=""><i class="fab fa-windows"></i> DOWNLOAD</a>
+          <br><br><br>
+          <div class="github">
+            <a href="https://www.github.com/"><i class="fab fa-github"></i> GitHub Repository</a>
+          </div>
+          <br><br><br><br>
+        </div>
+
+        <a href="https://www.istitutomontani.edu.it"><img class="montani-logo" src="./images/image-logo.png" alt=""></a>
+
+       <br><br><br><br>
       </div>
-      <div id="controller_select" class="capsuleBtn">Select</div>
-      <div id="controller_start" class="capsuleBtn">Start</div>
-      <div id="controller_b" class="roundBtn">B</div>
-      <div id="controller_a" class="roundBtn">A</div>
-    </div>      
-    <script>
-      const customControls = {}
-    </script>
-    <script src="binjgb.js"></script>
-    <script src="js/script.js"></script>
+
 </body>
+</html>
