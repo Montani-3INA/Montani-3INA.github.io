@@ -133,7 +133,9 @@ hr{
 }
 
 .tombolone .buttons .button{
-    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);    padding-right: 30px;
+    background: rgb(255,126,22);
+    background: linear-gradient(0deg, rgba(255,126,22,1) 0%, rgba(131,44,72,1) 100%);
+    padding-right: 30px;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
