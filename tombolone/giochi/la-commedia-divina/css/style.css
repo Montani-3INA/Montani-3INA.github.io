@@ -92,7 +92,7 @@
 
 /* SPACES SECTION */
 .hr_short {
-    width: 10%;
+    width: 20%;
 }
 
 .hr_mid {
@@ -148,6 +148,25 @@
   transition-duration: 1s;
 }
 
+.return-btn {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(138, 132, 127);
+  color: white;
+  font-weight: bold;
+  transition-duration: 1s;
+  text-decoration: none;
+  color: white;
+}
+
+.return-btn:hover{
+  text-decoration: none;
+  color: white;
+  transition-duration: 1s;
+  -webkit-box-shadow: 0px 0px 33px 8px #adadad; 
+  box-shadow: 0px 0px 33px 8px #adadad;
+}
+
 /* FOR DISPLAY UNDER 1300PX */
 @media only screen and (max-width: 1300px) {
     .title{
@@ -169,4 +188,14 @@
           transform: translateX(0);
         }
       }
+}
+
+/* FOR DISPLAY UNDER 600PX */
+@media only screen and (max-width: 600px) {
+    .title{
+        width: 300px;
+    }
+    .subtitle{
+        width: 100px;
+    }
 }
