@@ -1,57 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Created By Enrico Bernardi -->
+<!-- ITT MONTANI - FERMO -->
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
-    <title>Classe 3INA | Portale</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Sora:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Monda&family=Roboto:ital,wght@0,400;1,100&family=Sora:wght@300&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    
+    <link rel="icon" type="image/x-icon" href="../../../favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- TITLE -->
+    <title>Commedia Divina</title>
+
 </head>
-<body>
 
+<body class="body">
+
+    <!--HEADER CLASS-->  
+    <div class="header">
+    <img class="title" src="./images/image-title.png" alt=""><br><br>
+    <img class="subtitle"src="./images/image-subtitle.png" alt="">
+    </div>
+
+    <!--CONTENT CLASS-->
     <div class="content">
+      <img class="dante-cloud" src="./images/image-dante-cloud.png" alt="">
+      <p class="notes">
+        "Per me si torna da la città dolente,<br>per me si torna dall'etterno dolore,<br>per me si torna tra la perduta gente<br>[...]Riprendete ogne speranza o voi ch'uscite"<br>(Inferno, III, 1-3.9)"
+      </p>
 
-        <div class="header">
-            <h1>Portale classe 3INA</h1>
-            <h3>Istituto G. e M. Montani - Fermo</h3>
-        </div>
-    <div class="m-content">
-        <div class="description">
-            <p class="ds-title">Benvenuto nel portale del Terzo Informatica A dell'Istituto G. e M. Montani di Fermo</p>
-            <a href="https://github.com/Montani-3INA" target=”_blank” class="ds-content">-> Organizzazione GitHub <-</a>
-        </div>
-        
-        <br>
-
-        <div class="tombolone">
-            <h1>Tombolone Scientifico 2021</h1>
-            <h2>Scegli un gioco: </h2>
-            <div class="buttons">
-                <a class="button" href="./tombolone/giochi/la-commedia-divina/index.html"><p class="button_title">La Commedia Divina</p><p class="button_sub-title">Il VideoGame Dantesco</p></a>
-                <a class="button" href=""><p class="button_title">Gli animali</p><p class="button_sub-title">e il significato Dantesco</p></a>
-                <a class="button" href=""><p class="button_title">Puzzle</p><p class="button_sub-title">Completa il Puzzle</p></a>
-                <a class="button" href=""><p class="button_title">Qualcosa</p><p class="button_sub-title">Qualcos'altro</p></a>
-                <a class="button" href="./tombolone/giochi/completa-la-frase/index.html"><p class="button_title">La Vita Nuova</p><p class="button_sub-title">Completa i versio</p></a>
+      <!--CAROUSEL-START-->
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+          
+            <div class="item active">
+             <img src="./images/image-ex1.png" alt="PARADISO" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>PARADISO</h3>
+              </div>
             </div>
-            <br><br>
-            <h1 class="warning">ATTENZIONE! Per giocare è consigliato l'utilizzo di un Computer, iPad o Tablet.</h1>
-        </div>
+          
+            <div class="item">
+              <img src="./images/image-ex2.jpg" alt="PURGATORIO" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>PURGATORIO</h3>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="./images/image-ex3.jpg" alt="INFERNO" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>INFERNO</h3>
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+          <!--COROUSEL-END-->
 
-        
-        <img class="logo" src="logo.png" alt="">
-    </div>
-    </div>
+          <br><br>
+
+          <!--DOWNLOAD-SECTION-->
+          <hr class="hr_short">
+          <p class="download-title">GIOCA ORA!</p>
+          <a class="download-btn" href="./gioco/index.html"><i class="fas fa-gamepad"></i> VAI AL GIOCO</a>
+          <br><br><br>
+          <div class="github">
+            <a href="https://www.github.com/"><i class="fab fa-github"></i> GitHub Repository</a>
+          </div>
+          <hr class="hr_short">
+          <br><br><br><br>
+        </div>
+        <img src="./images/image-logo.png" alt="">
+        <br><br><br><br>
+      </div>
 
 </body>
 </html>
