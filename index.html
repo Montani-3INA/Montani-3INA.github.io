@@ -33,10 +33,6 @@
 
 <body class="body">
 
-    <div id="loading">
-      <img id="loading-image" src="./images/image-logo.png" alt="Loading..." />
-    </div>
-
     <!--HEADER CLASS-->  
     <div class="header">
     <img class="title" src="./images/image-title.png" alt=""><br><br>
@@ -120,23 +116,6 @@
         <img src="./images/image-logo.png" alt="">
         <br><br><br><br>
       </div>
-
-      <script>
-        $(window).on('load', function () {
-          $('#loading').hide();
-        }) 
-      </script>
-
-      <script>
-        jQuery(document).ready(function ($) {
-    $(window).load(function () {
-        setTimeout(function(){
-            $('#preloader').fadeOut('slow', function () {
-            });
-        },2000); // set the time here
-    });  
-});
-      </script>
 
 </body>
 </html>
